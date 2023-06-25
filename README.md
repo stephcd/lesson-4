@@ -10,7 +10,7 @@ The goal this lesson is to familiarize you with the various ways of modeling ene
 
 ## Batteries
 
-Batteries can be connected to either single phase or 3-phase nodes on a network through an inverter.  There are 
+Batteries can be connected to either single phase or 3-phase nodes on a network through an inverter and a meter. 
 
 ## Tasks
 
