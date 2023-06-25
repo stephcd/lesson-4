@@ -1,0 +1,29 @@
+#ifmissing "123.glm"
+#model get IEEE/123
+#endif
+#include "123.glm"
+
+// Task 1 - Add a 100kW
+module generators;
+object meter
+{
+    parent load_1;
+    nominal_voltage 2401.7771;
+    phases ABCN;
+    object inverter
+    {
+        rated_power 200 kW;
+        object battery
+        {
+            generator_status ONLINE;
+            generator_mode CONSTANT_PQ;
+            rfb_size MED_COMMERCIAL;
+            use_internal_battery_model TRUE;
+            state_of_charge 50%;
+            battery_state DISCHARGING;
+            battery_load 100 kW;
+        };
+    };
+}
+
+#output "IEEE-123-voltage-profile.png" -t profile -l 10
