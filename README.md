@@ -6,6 +6,7 @@ The goal this lesson is to familiarize you with the various ways of modeling ene
 
 1. How to connect a battery to a network.
 2. How to set the size and rating of a battery.
+3. How to set the control state of a battery.
 
 ## Batteries
 
@@ -22,7 +23,7 @@ The following tasks are illustrated in [`main.glm`](main.glm):
 
 # Exercises
 
-1. Add three household batteries to `load_75`, discharging at 10 kW, each using a 20 kW inverter.
+1. Add three household batteries to `load_75`, each using a 20 kW inverter, one charging at 10 kW, one idle, and one discharging at 10 kW.
 
 # More Information
 
