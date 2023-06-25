@@ -2,7 +2,7 @@
 
 # Lesson 4 - Energy Storage
 
-The goal this lesson is to familiarize you with the various ways of modeling energy storage in GridLAB-D. The specific learning objectives are the following
+The goal this lesson is to familiarize you with how to model energy storage in GridLAB-D. The specific learning objectives are the following.
 
 1. How to connect a battery to a network.
 2. How to set the size and rating of a battery.
