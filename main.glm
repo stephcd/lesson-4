@@ -31,7 +31,7 @@ object meter
 {
     parent load_75;
     nominal_voltage 2401.7771;
-    phases ABCN;
+    phases CN;
     object inverter
     {
         rated_power 20 kW;
